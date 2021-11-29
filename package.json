@@ -13,14 +13,23 @@
   "sideEffects": [
     "*.css"
   ],
-  "dependencies": {
-    "@tamagui/core": "*"
-  },
   "scripts": {
     "build": "tamagui-build",
     "watch": "tamagui-build --watch"
   },
+  "dependencies": {
+    "@tamagui/core": "^1.0.0-alpha.21",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
   "devDependencies": {
-    "@tamagui/build": "*"
+    "@tamagui/build": "^1.0.0-alpha.17",
+    "@types/node": "^16.11.9",
+    "@types/react": "^17.0.35",
+    "react-native-web": "^0.17.5",
+    "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "react-native-web": "*"
   }
 }
