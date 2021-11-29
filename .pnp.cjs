@@ -38,7 +38,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tamagui/build", "npm:1.0.0-alpha.17"],
             ["@tamagui/core", "virtual:b7afe3e919b3b9f539061310fbdfe822cea90cc2971e8aa55c40d03030d4dbb2e0df515c0dd3d833b7d90fb4475951b43880c2352eda274eadfdea9ad0022dff#npm:1.0.0-alpha.21"],
             ["@types/node", "npm:16.11.10"],
+            ["@types/prettier", "npm:2.4.2"],
             ["@types/react", "npm:17.0.37"],
+            ["prettier", "npm:2.5.0"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:b7afe3e919b3b9f539061310fbdfe822cea90cc2971e8aa55c40d03030d4dbb2e0df515c0dd3d833b7d90fb4475951b43880c2352eda274eadfdea9ad0022dff#npm:17.0.2"],
             ["react-native-web", "virtual:b7afe3e919b3b9f539061310fbdfe822cea90cc2971e8aa55c40d03030d4dbb2e0df515c0dd3d833b7d90fb4475951b43880c2352eda274eadfdea9ad0022dff#npm:0.17.5"],
@@ -159,6 +161,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/prettier", [
+        ["npm:2.4.2", {
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.4.2-290f200354-76e230b2d1.zip/node_modules/@types/prettier/",
+          "packageDependencies": [
+            ["@types/prettier", "npm:2.4.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/prop-types", [
         ["npm:15.7.4", {
           "packageLocation": "./.yarn/cache/@types-prop-types-npm-15.7.4-592896a9fe-ef6e1899e5.zip/node_modules/@types/prop-types/",
@@ -275,7 +286,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tamagui/build", "npm:1.0.0-alpha.17"],
             ["@tamagui/core", "virtual:b7afe3e919b3b9f539061310fbdfe822cea90cc2971e8aa55c40d03030d4dbb2e0df515c0dd3d833b7d90fb4475951b43880c2352eda274eadfdea9ad0022dff#npm:1.0.0-alpha.21"],
             ["@types/node", "npm:16.11.10"],
+            ["@types/prettier", "npm:2.4.2"],
             ["@types/react", "npm:17.0.37"],
+            ["prettier", "npm:2.5.0"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:b7afe3e919b3b9f539061310fbdfe822cea90cc2971e8aa55c40d03030d4dbb2e0df515c0dd3d833b7d90fb4475951b43880c2352eda274eadfdea9ad0022dff#npm:17.0.2"],
             ["react-native-web", "virtual:b7afe3e919b3b9f539061310fbdfe822cea90cc2971e8aa55c40d03030d4dbb2e0df515c0dd3d833b7d90fb4475951b43880c2352eda274eadfdea9ad0022dff#npm:0.17.5"],
@@ -397,6 +410,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/object-assign-npm-4.1.1-1004ad6dec-fcc6e4ea8c.zip/node_modules/object-assign/",
           "packageDependencies": [
             ["object-assign", "npm:4.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["prettier", [
+        ["npm:2.5.0", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.5.0-f1121aaab1-aad1b35b73.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.5.0"]
           ],
           "linkType": "HARD",
         }]

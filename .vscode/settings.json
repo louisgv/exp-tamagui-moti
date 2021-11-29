@@ -4,5 +4,24 @@
     "**/.pnp.*": true
   },
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.db": true,
+    "**/.git": true,
+    "**/.expo": true,
+    "**/.next": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/tsconfig.tsbuildinfo": true,
+    "**/.yarnrc.yml": true,
+    "**/.pnp.cjs": true,
+    "**/.prettierignore": true
+  },
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }
