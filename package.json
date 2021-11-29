@@ -1,0 +1,26 @@
+{
+  "name": "exp-tamagui-moti",
+  "packageManager": "yarn@3.1.1",
+  "typings": "types",
+  "main": "dist/cjs",
+  "module": "dist/esm",
+  "module:jsx": "dist/jsx",
+  "files": [
+    "types",
+    "src",
+    "dist"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "dependencies": {
+    "@tamagui/core": "*"
+  },
+  "scripts": {
+    "build": "tamagui-build",
+    "watch": "tamagui-build --watch"
+  },
+  "devDependencies": {
+    "@tamagui/build": "*"
+  }
+}
